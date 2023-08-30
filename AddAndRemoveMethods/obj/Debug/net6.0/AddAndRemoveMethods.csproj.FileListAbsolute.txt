@@ -1,0 +1,15 @@
+C:\Users\kzeyn\source\repos\AddAndRemoveMethods\AddAndRemoveMethods\bin\Debug\net6.0\AddAndRemoveMethods.exe
+C:\Users\kzeyn\source\repos\AddAndRemoveMethods\AddAndRemoveMethods\bin\Debug\net6.0\AddAndRemoveMethods.deps.json
+C:\Users\kzeyn\source\repos\AddAndRemoveMethods\AddAndRemoveMethods\bin\Debug\net6.0\AddAndRemoveMethods.runtimeconfig.json
+C:\Users\kzeyn\source\repos\AddAndRemoveMethods\AddAndRemoveMethods\bin\Debug\net6.0\AddAndRemoveMethods.dll
+C:\Users\kzeyn\source\repos\AddAndRemoveMethods\AddAndRemoveMethods\bin\Debug\net6.0\AddAndRemoveMethods.pdb
+C:\Users\kzeyn\source\repos\AddAndRemoveMethods\AddAndRemoveMethods\obj\Debug\net6.0\AddAndRemoveMethods.csproj.AssemblyReference.cache
+C:\Users\kzeyn\source\repos\AddAndRemoveMethods\AddAndRemoveMethods\obj\Debug\net6.0\AddAndRemoveMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kzeyn\source\repos\AddAndRemoveMethods\AddAndRemoveMethods\obj\Debug\net6.0\AddAndRemoveMethods.AssemblyInfoInputs.cache
+C:\Users\kzeyn\source\repos\AddAndRemoveMethods\AddAndRemoveMethods\obj\Debug\net6.0\AddAndRemoveMethods.AssemblyInfo.cs
+C:\Users\kzeyn\source\repos\AddAndRemoveMethods\AddAndRemoveMethods\obj\Debug\net6.0\AddAndRemoveMethods.csproj.CoreCompileInputs.cache
+C:\Users\kzeyn\source\repos\AddAndRemoveMethods\AddAndRemoveMethods\obj\Debug\net6.0\AddAndRemoveMethods.dll
+C:\Users\kzeyn\source\repos\AddAndRemoveMethods\AddAndRemoveMethods\obj\Debug\net6.0\refint\AddAndRemoveMethods.dll
+C:\Users\kzeyn\source\repos\AddAndRemoveMethods\AddAndRemoveMethods\obj\Debug\net6.0\AddAndRemoveMethods.pdb
+C:\Users\kzeyn\source\repos\AddAndRemoveMethods\AddAndRemoveMethods\obj\Debug\net6.0\AddAndRemoveMethods.genruntimeconfig.cache
+C:\Users\kzeyn\source\repos\AddAndRemoveMethods\AddAndRemoveMethods\obj\Debug\net6.0\ref\AddAndRemoveMethods.dll
