@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,21 +11,26 @@ namespace AddAndRemoveMethods
     {
         public static T[] Add(ref T[] array, T? value)
         {
-            T[] newArray = new T[array.Length + 1];
-            Array.Copy(array, newArray, array.Length);
-            newArray[array.Length] = value;
-            return newArray;
+            Array.Resize(ref array, array.Length + 1);
+            array[^1] = value;
+            return array;
         }
         public static T[] Remove(ref T[] array, T? value)
         {
             int index = Array.IndexOf(array, value);
-            if (index == -1) return array;
+            if (index == -1)
+            {
+                return array;
+            }
 
-            T[] newArray = new T[array.Length - 1];
-            Array.Copy(array, 0, newArray, 0, index);
-            Array.Copy(array, index + 1, newArray, index, array.Length - index - 1);
+            for (int i = index; i < array.Length - 1; i++)
+            {
+                array[i] = array[i + 1];
+            }
 
-            return newArray;
+            Array.Resize(ref array, array.Length - 1);
+
+            return array;
         }
     }
 }

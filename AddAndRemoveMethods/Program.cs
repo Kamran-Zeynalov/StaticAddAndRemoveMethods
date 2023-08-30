@@ -4,36 +4,16 @@
     {
         static void Main(string[] args)
         {
-            string[] myArray = { "Kamran", "Elvin", "Ramiz" };
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Orginal Array");
-            Console.ForegroundColor = ConsoleColor.White;
+            string[] myArray = { "Kamran", "Bextiyar", "Paytaxt", "Torpaq", "Americooo", "Amsterdam" };
 
-            foreach (string s in myArray)
-            {
-                Console.WriteLine(s);
-            }
+            ArrayHelper<string>.Add(ref myArray, "Fransa");
+            ArrayHelper<string>.Add(ref myArray, "Ukraine");
 
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("New Array After Add");
-            Console.ForegroundColor = ConsoleColor.White;
+            ArrayHelper<string>.Remove(ref myArray, "Bextiyar");
+            ArrayHelper<string>.Remove(ref myArray, "Paytaxt");
+            ArrayHelper<string>.Remove(ref myArray, "Torpaq");
 
-            string newItem = "Cemil";
-            string[] newArrayAdded = ArrayHelper<string>.Add(ref myArray, newItem);
-
-            foreach (string item in newArrayAdded)
-            {
-                Console.WriteLine(item);
-            }
-
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("New Array After Remove");
-            Console.ForegroundColor = ConsoleColor.White;
-
-            string removeItem = "Kamran";
-            string[] newArrayRemoved = ArrayHelper<string>.Remove(ref myArray, removeItem);
-
-            foreach (string item in newArrayRemoved)
+            foreach (string item in myArray)
             {
                 Console.WriteLine(item);
             }
